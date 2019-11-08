@@ -36,7 +36,7 @@ function UpdateMovies(props) {
         })
     }
 
-    const handleSubmit = (e, id) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         axios
         .put(`http://localhost:5000/api/movies/${movies.id}`, movies)
