@@ -77,7 +77,7 @@ function UpdateMovies(props) {
                 value={movies.stars} 
                 onChange={handlechangestars} />
 
-            <button type='submit'>Update</button> 
+            <button className='update-button' type='submit'>Update</button> 
         </form>
 
         </>
